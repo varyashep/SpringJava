@@ -41,7 +41,7 @@ public class IntegrationConfig {
     public FileWritingMessageHandler messageHandler() {
         FileWritingMessageHandler handler =
                 new FileWritingMessageHandler(new File(
-                        "C:/repo/Studies/Java/Pro/Spring/Seminars/Seminar12/files"));
+                        "C:/Users/user/Documents/GBCourse/Spring/Seminar12"));
         handler.setExpectReply(false);
         handler.setFileExistsMode(FileExistsMode.APPEND);
         handler.setAppendNewLine(true);
